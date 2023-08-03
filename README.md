@@ -64,14 +64,17 @@ Users should be able to:
 
 some code snippets of what i learned
 
-```adding a error message on invalid inputs on html
+  adding a error message on invalid inputs on html
+
+```
  <input className="w-full h-14 text-3xl border-2 rounded-md p-2" type="text" placeholder="DD" onChange={(event) => setDay(parseInt(event.target.value))} />
               {errors.invalidDay && !errors.emptyFields && <p className="text-error-red font-thin italic mt-1 text-xs absolute">Must be a valid day</p>}
               {errors.invalidDate && <p className="text-error-red font-thin italic  mt-1 text-xs absolute">Must be a valid date</p>}
               {errors.emptyFields && (day === '' || year === NaN) && <p className="text-error-red  font-thin italic mt-1 text-xs absolute">This field is required</p>}
             </div>
 ```
-```validating input to use the ternary operator
+  validating input to use the ternary operator
+```
 const [errors, setErrors] = useState({
     emptyFields: false,
     invalidDay: false,
@@ -92,7 +95,8 @@ const [errors, setErrors] = useState({
     return newErrors;
   }
 ```
-```animation with useSpring and animated
+  animation with useSpring and animated
+```
   const ageDaySpring = useSpring({ number: ageDay || 0, from:{number: 0} });
   const ageMonthSpring = useSpring({ number: ageMonth || 0, from:{number: 0}  });
   const ageYearSpring = useSpring({ number: ageYear || 0, from:{number: 0} });

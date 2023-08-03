@@ -131,7 +131,7 @@ I want to understand more about animation and how to use the hooks properly.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/AirtonDoug)
+- Frontend Mentor - [@AirtonDoug](https://www.frontendmentor.io/profile/AirtonDoug)
 
 
 

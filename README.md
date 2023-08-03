@@ -53,7 +53,7 @@ Users should be able to:
 - Flexbox
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
-- [Tailwindcss] (https://tailwindcss.com) - Css framework 
+- [Tailwindcss](https://tailwindcss.com) - Css framework 
 
 
 ### What I learned
